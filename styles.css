@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid black;
+}*/
+
 body {
   width: 900px;
   margin: 0 auto;
@@ -126,16 +130,59 @@ footer .line-separator {
 footer img {
   margin-top: 10px;
   float: left;
+  margin-right: 5px;
 }
 
 footer h3 {
   float: left;
 }
 
-footer p {
-
+#bio {
+  font-weight: normal;
+  font-size: 15px;
 }
 
 footer button {
+  margin-top: 30px;
   float: right;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: salmon;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.eg-side-lined-1 {
+  margin-top: 100px;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.eg-side-lined-1:before, .eg-side-lined-1:after {
+  content: "";
+  display: inline-block;
+  vertical-align: 15px;
+  position: relative;
+  width: 50%;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: #dbdbdb ;
+}
+.eg-side-lined-1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.eg-side-lined-1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+#rightsreserved {
+  text-align: center;
+  color: #dbdbdb ;
+  font-size: 10px;
 }
