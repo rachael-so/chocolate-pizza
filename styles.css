@@ -37,16 +37,21 @@ main #bg {
   margin: 0 auto;
 }
 
-main .list{
-  position: absolute;
-  top: 1000px;
-  left: 300px;
+.list {
+
 }
 
 main ul {
-  display: inline;
+  background-image: url('img/list-bg.png');
+  padding-left: 55px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   float: left;
+  width: 900px;
   list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 input[type=checkbox]:checked + label {
@@ -56,6 +61,7 @@ input[type=checkbox]:checked + label {
 main p {
   text-indent: 30px;
   width: 900px;
+}
 
 header {
   margin-top: 20px;
