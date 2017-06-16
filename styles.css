@@ -1,0 +1,59 @@
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-family: impact;
+  margin-bottom: 0px;
+}
+
+main h2 {
+  display: inline;
+  font-size: 10px;
+  color: gray;
+  font-weight: lighter;
+  font-family: helvetica;
+}
+
+main img {
+  margin-top: 20px;
+  display: block;
+}
+
+main div.print {
+  float: right;
+}
+
+main .print img {
+  display: inline;
+  margin-top: 0;
+}
+
+main #bg {
+  position: relative;
+  width: 900px;
+  height: 215px;
+  margin: 0 auto;
+}
+
+main .list{
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+}
+
+main ul {
+  display: inline;
+  float: left;
+  list-style-type: none;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+main p {
+  text-indent: 30px;
+  width: 900px;
+}
