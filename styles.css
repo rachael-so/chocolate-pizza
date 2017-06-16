@@ -25,29 +25,21 @@ main div.print {
   float: right;
 }
 
+main a {
+  text-decoration: none;
+}
+
 main .print img {
   display: inline;
   margin-top: 0;
 }
 
-main #bg {
-  position: relative;
-  width: 900px;
-  height: 215px;
-  margin: 0 auto;
-}
-
-.list {
-
-}
-
 main ul {
+  border-bottom: 3px solid gray;
   background-image: url('img/list-bg.png');
-  padding-left: 55px;
   padding-top: 30px;
   padding-bottom: 30px;
-  float: left;
-  width: 900px;
+  width: 860px;
   list-style-type: none;
   columns: 2;
   -webkit-columns: 2;
@@ -67,11 +59,12 @@ header {
   margin-top: 20px;
   height: 100px;
 }
+
 header a {
   color: black;
 }
 
-header  ul {
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -120,8 +113,29 @@ header h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-.line-separator{
-  margin-top: -5px;
+header .line-separator{
   height: 7px;
   background: #dbdbdb;
+}
+
+footer .line-separator {
+  height: 7px;
+  background: #dbdbdb;
+}
+
+footer img {
+  margin-top: 10px;
+  float: left;
+}
+
+footer h3 {
+  float: left;
+}
+
+footer p {
+
+}
+
+footer button {
+  float: right;
 }
